@@ -1,0 +1,67 @@
+{
+    "title": "Open Source License（开源协议）",
+    "author": "Strawhat Chan",
+    "description": "开源协议的翻译与总结",
+    "language": "zh-hans",
+    "gitbook": ">=3.2.3",
+    "root": ".",
+    "links":{
+        "sidebar": {
+            "微博": "https://weibo.com/strawhatchan"
+        }
+    },
+    "plugins": ["-katex-plus",
+                "-lunr",
+                "-search",
+                "-livereload",
+                "highlight",
+                "-mathjax",
+                "-search-plus",
+                "splitter",
+                "expandable-chapters-small",
+                "donate",
+                "-prism",
+                "-prism-ext",
+                "-prism-themes",
+                "-todo",
+                "-disqus",
+                "github",
+                "anchors",
+                "anchor-navigation-ex",
+                "sharing"
+                ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "github": {
+            "url": "https://github.com/StrawhatChan/OpenSourceLicense"
+        },
+        "disqus": {
+            "shortName": "https-strawhatchan-gitbooks-io"
+        },
+        "donate": {
+            "wechat": "weixin.png",
+            "alipay": "alipay.png",
+            "title": "您的奖励就是我的动力",
+            "button": "打赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "anchor-navigation-ex": {
+            "mode": "float",
+            "associatedWithSummary": false,
+            "showlevel": false
+        },
+        "sharing": {
+            "weibo": true,
+            "twitter": true,
+            "facebook": false,
+            "google": false,
+            "instapaper": false,
+            "all": [
+                "weibo"
+            ]
+        }
+    }
+}
